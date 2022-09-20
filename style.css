@@ -1,0 +1,50 @@
+html{
+    background: url('/media/portti.jpg')  center center fixed ;
+    background-size: cover;
+    width: 100%;
+}
+
+
+.cont{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    width: 20rem;
+    
+    margin: auto;
+    margin-top: 25rem;
+}
+.link{
+  /* linkkilaatikoiden asettelua ja reunoja */  
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: goldenrod;
+
+   
+}
+
+
+
+#oikea{
+    border-right:0.1rem groove black;
+    
+    
+}
+#oikea a {
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    text-decoration: none
+}
+#keski a {
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    text-decoration: none
+}
+
