@@ -8,10 +8,10 @@ html{
 .cont{
     display: grid;
     grid-template-columns:1fr 1fr 1fr ;
-    width: 20rem;
+    width: 40rem;
    
     margin: auto;
-    margin-top: 25rem;
+    margin-top: 55rem;
     
 }
 .link{
@@ -20,21 +20,22 @@ html{
     padding: 1rem;
     font-family: 'Segoe UI';
     font-weight: 400;
+    text-decoration: none ;
+    font-size:xx-large !important;
+    
     
 }
-#diipa{
-    
-    
-}
+
 
 
 a:visited{
     color: black;
 }
 a:hover{
-    color: goldenrod;
-
-   
+    color: goldenrod;   
+}
+a:link{
+    color:inherit;
 }
 
 
@@ -62,4 +63,5 @@ a:hover{
 #diipa a{
     text-decoration: none
 }
+
 
