@@ -7,11 +7,12 @@ html{
 
 .cont{
     display: grid;
-    grid-template-columns:1fr 1fr ;
+    grid-template-columns:1fr 1fr 1fr ;
     width: 20rem;
-    
+   
     margin: auto;
     margin-top: 25rem;
+    
 }
 .link{
   /* linkkilaatikoiden asettelua ja reunoja */  
@@ -21,6 +22,12 @@ html{
     font-weight: 400;
     
 }
+#diipa{
+    
+    
+}
+
+
 a:visited{
     color: black;
 }
@@ -37,6 +44,10 @@ a:hover{
     
     
 }
+#keski{
+
+    border-right:0.1rem groove black;}
+
 #oikea a {
     font-family: 'Segoe UI';
     font-weight: 400;
@@ -45,6 +56,10 @@ a:hover{
 #keski a {
     font-family: 'Segoe UI';
     font-weight: 400;
+    text-decoration: none
+    
+}
+#diipa a{
     text-decoration: none
 }
 
