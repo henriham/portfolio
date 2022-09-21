@@ -1,5 +1,5 @@
 html{
-    background: url('/media/portti.jpg')  center center fixed ;
+    background: url('media/portti.jpg')  center center fixed ;
     background-size: cover;
     width: 100%;
 }
