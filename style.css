@@ -8,10 +8,12 @@ html{
 .cont{
     display: grid;
     grid-template-columns:1fr 1fr 1fr ;
-    width: 40rem;
+    width: 50%;
    
-    margin: auto;
-    margin-top: 55rem;
+    transform: translate(50%, 30em);
+
+   
+    margin-top:25% ;
     
 }
 .link{
