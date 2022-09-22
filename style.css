@@ -2,28 +2,57 @@ html{
     background: url('media/portti.jpg')  center center fixed ;
     background-size: cover;
     width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    
 }
 
 
 .cont{
+    
     display: grid;
     grid-template-columns:1fr 1fr 1fr ;
     width: 50%;
-   
-    transform: translate(50%, 30em);
+    height:4rem;
+       
+    margin-top:33% ; 
+    position: sticky;
+    
+    bottom: auto;
+    margin-left:auto ;
+    margin-right: auto;
+    margin-top:400px ; 
+    margin-bottom: auto;
+    top: auto;
+    bottom: auto;
 
+
+    overflow:hidden;
+    
+    
    
-    margin-top:25% ;
+
+    
+    
+   
+ 
     
 }
 .link{
   /* linkkilaatikoiden asettelua ja reunoja */  
+  
     text-align: center;
     padding: 1rem;
     font-family: 'Segoe UI';
     font-weight: 400;
     text-decoration: none ;
-    font-size:xx-large !important;
+    font-size: larger;
+    text-transform: uppercase;
+    float: center;
+    display: block;
+    text-align: center;
+    
+    
     
     
 }
