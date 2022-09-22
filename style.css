@@ -1,4 +1,4 @@
-
+/*ei mitään hajua mitä tapahtuu*/
 
 .main{
     background: url('media/portti.jpg')  center center fixed ;
@@ -102,7 +102,7 @@ a:link{
 #keski:hover{
     color:goldenrod;
 }
- /*BIO SIVUN MUOKKAUS*/
+ /*BIO SIVUN MUOKKAUS, aseteltu kuvia ja tekstiä*/
  #bio{
     background: url('media/biotausta.jpg') center center fixed;
     font-family:'Segoe UI' ;
@@ -136,7 +136,7 @@ a:link{
     margin-top:-12rem;
     margin-left: 16rem;
     display: block;
-    position: ;
+    
 }
 
 #hobby{
