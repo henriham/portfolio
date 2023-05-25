@@ -1,0 +1,166 @@
+/*Importataan pari fonttia*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap' );
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+
+:root{
+    --clr--neon: hsl(123 100% 54%);
+    
+}
+
+*{
+    box-sizing: border-box;
+    background-color:black;
+    color:var(--clr--neon);
+    margin: auto;
+    padding: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    align-items: center;
+}
+
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   
+}
+
+header{
+    text-align: center; 
+    margin-top: 33vh;
+    
+    
+    
+
+}
+
+header div{
+    
+    
+    align-items: center;
+    color: var(--clr--neon);
+    display: inline-block;
+    
+    justify-content: center;
+}
+
+header h1{
+    font-family: 'Press Start 2P', cursive;
+    text-align: end;
+    margin: 0;
+    
+}
+
+header p{
+    text-align: end;
+    font-size: smaller;
+    
+}
+footer{
+    
+    text-align: center;
+    font-size: smaller;
+    margin: 0;
+    
+}
+
+
+#greeting{
+    text-align: center;
+    
+}
+
+#enterBtn{
+    
+    color:var(--clr--neon);
+    border:.13em solid green;
+    margin-top: 5rem;
+    padding: 0.5em;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration:none ;
+    border-radius: 0.2em;
+
+    /*text-shadow:
+    0 0 0 0.25em hsl(0 0% 100% / 0.2)
+    0 0 0.5em var(--clr--neon);
+
+    box-shadow: inset 0 0 1em 0 var(--clr--neon),
+    0 0 1em 0 var(--clr--neon);*/
+
+    position: relative;
+
+    /*transition: background-color 100ms linear;*/
+    
+}
+
+#enterBtn::before{
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    background: var(--clr--neon);
+    top: 120%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    transform: perspective(1.6em) rotateX(40deg)
+    scale(1,0.5);
+    filter: blur(2em);
+    opacity: 0.3;
+
+}
+
+#enterBtn:hover,
+#enterBtn:focus{
+ background: var(--clr--neon);
+ color: black;
+ text-shadow: none;
+    
+}
+#enterBtn::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow:0 0 2em 0.5em var(--clr--neon) ;
+    opacity: 0;
+    transition: opacity 100ms linear;
+    
+}
+#enterBtn:hover::before{
+    opacity: 1;
+}
+#enterBtn:focus::before{
+    opacity: 1;
+}
+
+#enterBtn:hover::after{
+   opacity: 1; 
+}
+#enterBtn:focus::after{
+    opacity: 1; 
+ }
+
+
+
+
+
+#enterBtn:active{
+    color: black;
+    background-color: var(--clr--neon);
+    border:3px solid var(--clr--neon);
+    text-decoration: none;
+    transition: none;
+
+
+}
+
+
